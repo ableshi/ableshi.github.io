@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>支付</title>
+	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/publick.css">
+	<link rel="stylesheet" href="../css/zhifu.css">
+	<script src="../js/zhifu.js"></script>	
+</head>
+<body>
+	<div class="header">
+		<div class="container clearfix">
+			<img src="../images/logo2_07.jpg" alt="logo" class="logo">
+			<div class="search">
+				<input type="text" placeholder="搜宝贝、人、杂志">
+				<a href="javascript:;" class="iconfont">&#x3433;</a>
+			</div>
+		</div>
+	</div>
+	<!-- 导航登录 -->
+	<div class="nav clearfix">
+		<div class="container clearfix">
+			<ul class="index-nav clearfix">
+				<li><a href="../index.html">首页</a></li>
+				<li><a href="javascript:;">逛街啦</a></li>
+				<li><a href="javascript:;">杂志社</a></li>
+				<li><a href="javascript:;">搭配秀</a></li>
+				<li><a href="javascript:;">达人</a></li>
+				<li><a href="javascript:;">好店</a></li>
+			</ul>
+			<ul class="login-success clearfix">
+				<li>
+					<ul class="clearfix">
+						<li><a href="javascript:;">shobal02</a></li>
+						<li><a href="javascript:;"><span class="iconfont">&#xe692;</span>杂志社</a></li>
+						<li><a href="javascript:;"><span class="iconfont">&#xe604;</span>喜欢</a></li>
+					</ul>
+				</li>
+				<li><a href="javascript:;">设置</a></li>
+				<li><a href="javascript:;" class="have-info">消息(1)</a></li>
+				<li><a href="javascript:;">邀请</a></li>
+				<li><a href="javascript:;">退出</a></li>
+			</ul>
+		</div>
+		<div class="yun"></div>	
+	</div>
+	<div class="content">
+		<div class="container">
+			<div class="main clearfix">
+				<div class="state">
+					<ul>
+						<li class="now-active">
+							<div>1.确认订单信息</div>
+						</li>
+						<li >
+							<div>2.付款到支付宝</div>
+						</li>
+						<li >
+							<div>3.确认收货</div>
+						</li>
+						<li >
+							<div>4.双方互评</div>
+						</li>
+					</ul>
+				</div>
+				<div class="address">
+					<div class="manageAddr clearfix">
+						<h3>确认收货地址</h3>
+						<a href="javascript:;">管理收货地址</a>
+					</div>
+					<ul>
+						<li class="address-active">
+							<input type="radio" name="address" checked>
+							<span class="check-address">河北省&nbsp;秦皇岛市&nbsp;海港区</span>
+							<span class="defaultAddress">&nbsp;默认收货地址</span>
+							<a class="changeAddress" href="javascript:;">修改本地址</a>
+						</li>
+						<li >
+							<input type="radio" name="address">
+							<span class="check-address">上海&nbsp;上海市&nbsp;浦东新区区&nbsp;张江高科技园博霞路（某某某收）</span>
+							<a class="changeAddress" href="javascript:;"></a>
+						</li>
+					</ul>
+					<div class="else-address">
+						<a href="javascript:;">使用其他地址</a>
+						<a href="javascript:;">使用待收货(自提)</a>
+					</div>
+				</div>
+				<div class="order-information">
+					<h3>确认订单信息</h3>
+					<ul class="commodity-title clearfix">
+						<li>店铺宝贝</li>
+						<li><span>单价(元)</span><span>数量</span></li>
+						<li>优惠方式(元)</li>
+						<li>小计(元)</li>
+					</ul>
+					<ul class="commodity-list">
+						<!-- 商品一 -->
+						<li>
+							<ul class="now-commodity">
+								<li>
+									<span>店铺：</span>
+									<a href="javascript:;">【Camile 卡蜜拉】</a>
+									<span>卖家：</span>
+									<a href="javascript:;">xuedonger118</a>
+									<a href="javascript:;"><img src="../images/zhifuImg/lianxi_30.jpg" alt=""></a>
+								</li>
+								<li class="clearfix">
+									<div class="shop">
+										<input type="checkbox" class="check-commodity">
+										<img src="../images/zhifuImg/commodity_03.jpg" alt="">
+										<a href="javascript:;">韩国2013新款女装 韩版超级显瘦雪纺连衣裙 无袖哈哈啊</a><br>
+										<span>颜色分类:黄色艳丽</span>
+										<span>尺寸:S(360度旋转)</span><br>
+										<img src="../images/zhifuImg/commodity_06.jpg" alt="">
+									</div>
+									<div class="money">
+										<span class="oldMoney">110.00</span>
+										<div class="count">
+											<a href="#" class="reduce">-</a>
+											<input type="text" value="1" class="count-num">
+											<a href="#" class="add">+</a>
+										</div>
+									</div>
+									<div class="discount">
+										<select name="" class="discount-select">
+											<option value="0.7">省<span>33</span>元:新品7折</option>
+											<option value="0.8">省<span>22</span>元:新品8折</option>
+											<option value="0.9">省<span>11</span>元:新品9折</option>
+										</select>
+									</div>
+									<div class="total-prices">
+										<span>0</span>
+									</div>
+								</li>
+								<li class="clearfix">
+									<span>给卖家留言:</span>
+									<input type="text" placeholder="选填，可以告诉卖家您对商品的特殊要求，如：颜色、尺码等">
+									<span>运送方式:</span>
+									<div class="discount">
+										<select name="" class="freight-select">
+											<option value="10">快递 <span>10.00</span>元</option>
+											<option value="8">快递 <span>8.00</span>元</option>
+											<option value="7">快递 <span>7.00</span>元</option>
+										</select>
+									</div>
+									<div class="freight">
+										<span>0</span>
+									</div>
+								</li>
+								<li class="clearfix">
+									<div>
+										<span>店铺合计(含运费):</span>
+										<span>￥</span>
+										<span class="now-count red">0</span>
+									</div>
+								</li>
+							</ul>
+						</li>
+						<!-- 商品二 -->
+						<li>
+							<ul class="now-commodity">
+								<li>
+									<span>店铺：</span>
+									<a href="javascript:;">【Camile 卡蜜拉】</a>
+									<span>卖家：</span>
+									<a href="javascript:;">xuedonger118</a>
+									<a href="javascript:;"><img src="../images/zhifuImg/lianxi_30.jpg" alt=""></a>
+								</li>
+								<li class="clearfix">
+									<div class="shop">
+										<input type="checkbox" class="check-commodity">
+										<img src="../images/zhifuImg/commodity_03.jpg" alt="">
+										<a href="javascript:;">韩国2013新款女装 韩版超级显瘦雪纺连衣裙 无袖哈哈啊</a><br>
+										<span>颜色分类:黄色艳丽</span>
+										<span>尺寸:S(360度旋转)</span><br>
+										<img src="../images/zhifuImg/commodity_06.jpg" alt="">
+									</div>
+									<div class="money">
+										<span class="oldMoney">110.00</span>
+										<div class="count">
+											<a href="javascript:;" class="reduce">-</a>
+											<input type="text" value="1" class="count-num">
+											<a href="javascript:;" class="add">+</a>
+										</div>
+									</div>
+									<div class="discount">
+										<select name="" class="discount-select">
+											<option value="0.7">省<span>33</span>元:新品7折</option>
+											<option value="0.8">省<span>22</span>元:新品8折</option>
+											<option value="0.9">省<span>11</span>元:新品9折</option>
+										</select>
+									</div>
+									<div class="total-prices">
+										<span>0</span>
+									</div>
+								</li>
+								<li class="clearfix">
+									<span>给卖家留言:</span>
+									<input type="text" placeholder="选填，可以告诉卖家您对商品的特殊要求，如：颜色、尺码等">
+									<span>运送方式:</span>
+									<div class="discount">
+										<select name="" class="freight-select">
+											<option value="10">快递 <span>10.00</span>元</option>
+											<option value="8">快递 <span>8.00</span>元</option>
+											<option value="7">快递 <span>7.00</span>元</option>
+										</select>
+									</div>
+									<div class="freight">
+										<span>0</span>
+									</div>
+								</li>
+								<li class="clearfix">
+									<div>
+										<span>店铺合计(含运费):</span>
+										<span>￥</span>
+										<span class="now-count red">0</span>
+									</div>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="ready-info clearfix">
+					<div class="check-info">
+						<input type="checkbox"><span>匿名购买</span><br>
+						<input type="checkbox"><span>找人代付</span>
+					</div>
+					<div class="submit">
+						<div class="submit-money">
+							<span class="blod">实付款:</span><span>￥</span><span class="red">0</span>
+						</div>
+						<div class="submit-address">
+							<span class="blod">寄送至:</span>
+							<span class="end-address">河北省&nbsp;秦皇岛市&nbsp;海港区</span>
+						</div>
+						<div class="submit-user">
+							<span class="blod">收货人:</span><span></span>
+						</div>
+						<a href="javascript:;">提交订单</a>
+					</div>
+					<div class="warning-info">
+						<img src="../images/zhifuImg/dengpao_51.jpg" alt="">
+						<span>若价格变动，请在提交订单后联系卖家改价，并查看已买到的宝贝</span>
+					</div>
+				</div>
+			</div>
+			<!-- 公共尾部 -->
+			<div class="footer clearfix">
+				<div class="footer-top clearfix">
+					<div>
+						<p>网站</p>
+						<ul>
+							<li><a href="javascript:;">首页</a></li>
+							<li><a href="javascript:;">逛街啦</a></li>
+							<li><a href="javascript:;">杂志社</a></li>
+							<li><a href="javascript:;">搭配秀</a></li>
+							<li><a href="javascript:;">达人</a></li>
+							<li><a href="javascript:;">好店</a></li>
+						</ul>
+					</div>
+					<div>
+						<p>关于我们</p>
+						<a href="javascript:;"><img src="../images/footer_03.png" alt="">新浪微博</a>
+					</div>
+					<div>
+						<img src="../images/footer_05.png" alt="">
+					</div>
+				</div>
+				<div class="footer-middle clearfix">
+					<ul>
+						<li>友情链接：</li>
+						<li><a href="javascript:;">TWICE旗舰店</a></li>
+						<li><a href="javascript:;">迪亚兹旗舰店</a></li>
+					</ul>
+					<a href="javascript:;">更多</a>
+				</div>
+				<div class="footer-bottom">
+					<ul>
+						<li>Copyright2016</li>
+						<li>云美丽</li>
+						<li>Meilibabys.com</li>
+						<li>京ICP备</li>
+						<li>12008870号-1</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+</body>
+</html>

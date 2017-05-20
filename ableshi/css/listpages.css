@@ -1,0 +1,353 @@
+
+.header{
+	background-image: url("../images/headerBg.png");
+	background-repeat: repeat-x;
+}
+.shop-nav{
+	background-color: white;
+	box-shadow: 1px 1px 1px #d9cfc4;
+	border-radius: 5px;
+}
+.shop-nav>a{
+	float: left;
+	line-height: 35px;
+	margin-right: 24px;	
+	text-decoration: none;
+}
+.shop-nav>a span{
+	font-size: 20px;
+	color: #989898;
+	margin-left: 27px;
+	margin-right: 12px;
+}
+.shop-nav ul{
+	float: left;
+	list-style: none;
+	line-height: 35px;
+	margin-top: 6px;
+}
+.shop-nav ul li{
+	float: left;
+	height: 28px;
+}
+.shop-nav-active{
+	background-image: url("../images/nav-sanjiao_101.png");
+	background-position: center bottom;
+	background-repeat: no-repeat;
+}
+.shop-nav ul li a{
+	border-left: 1px solid #dddddd;
+	display: block;
+	text-decoration: none;
+	height: 22px;
+	line-height: 22px;
+	width: 75px;
+	text-align: center;
+	color: black;
+}
+.shop-nav ul li:last-child a{
+	border-right: 1px solid #dddddd;
+}
+.shop-list{
+	margin-top: 18px;
+	border-radius: 10px;
+	background-color: white;
+	padding-top: 17px;
+	padding-left: 14px;
+	padding-bottom: 22px;
+}
+.shop-list h3{
+	font-size: 14px;
+	color: #ff689b;
+}
+.shop-list>div{
+	float: left;
+	margin-right: 45px;
+}
+.shop-list>div ul{
+	float: left;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+.shop-list>div ul:last-child{
+	margin-right: 0px;
+}
+.content .red{
+	color: red;
+}
+.shop-list>div ul a{
+	text-decoration: none;
+	line-height: 22px;
+
+}
+.shop-info{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.shop-info h3{
+	font-size: 28px;
+	color: #4caad5;
+	font-weight: normal;
+	float: left;
+	margin-left: 15px;
+}
+.shop-info ul{
+	float: left;
+}
+.shop-info ul li{
+	float: left;
+	margin-left: 18px;
+}
+.shop-info ul li span{
+	float: left;
+	line-height: 22px; 
+}
+.btn{
+	float: left;
+}
+.btn a{
+	float: left;
+	text-align: center;
+	text-decoration: none;
+	height: 21px;
+	line-height: 21px;
+	font-weight: bolder;
+	box-shadow: 0px 1px 1px #cdc8c3;
+	padding:0 6px;
+	border-top: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+	border-right: 1px solid #cccccc;
+	background:linear-gradient(to top, #ffe3ee ,#fff);
+}
+.btn a:first-child{
+	padding-left: 12px;
+	padding-right:6px;
+	color: #ff70a7;
+	border-top:1px solid #ffc2d9;
+	border-bottom:1px solid #ffc2d9;
+	border-left:1px solid #ffc2d9;
+	border-radius:10px 0 0 10px;
+	background:linear-gradient(to top, #ffe3ee ,#fff);
+}
+.btn a:last-child{
+	padding-right:12px;
+	padding-left: 6px;
+	border-radius: 0 10px 10px 0;
+	color: #888888;
+}
+.shop-info .btn .btn-active{
+	color: #888888;
+	background:linear-gradient(to top,#ededed,#fff);
+}
+.two-block,.three-block,.four-block,.five-block,.six-block{
+	width: 15px;
+	height: 15px;
+	margin: 0 auto;
+	margin-top: 3px;
+}
+.one-block{
+	width: 22px;
+	height: 15px;
+	background-color: #f8d733;
+	margin: 0 auto;
+	margin-top: 3px;
+	border-radius: 8px 0 0 8px;
+}
+.two-block{
+	background-color: #1098d7;
+}
+.three-block{
+	background-color:#2d462c;
+}
+.four-block{
+	background-color: #ec3542;
+}
+.five-block{
+	background-color: #ba6f0f;
+}
+.six-block{
+	background-color:#e2188c;
+}
+.seven-block{
+	width: 22px;
+	height: 15px;
+	background-color: black;
+	margin: 0 auto;
+	margin-top: 3px;
+	border-radius: 0 8px 8px 0;
+}
+.hot{
+	width: 226px;
+	background-color: white;
+	padding-top: 12px;
+	border-radius: 5px;
+	padding-bottom: 4px;
+	border:1px solid #f6f3f0;
+}
+.hot .img a:first-child{
+	display: block;
+	margin-left: 12px;
+	margin-right: 12px;
+	margin-bottom: 13px;
+}
+.hot .img{
+	position: relative;
+}
+.hot .img a:nth-child(2){
+	text-decoration: none;
+	position:absolute;
+	width: 53px;
+	height: 23px;
+	line-height: 23px;
+	background-color: #ff4f71;
+	color: white;
+	text-align: center;
+	border-radius: 5px;
+	bottom: 23px;
+	right: 17px;
+}
+.hot .img span{
+	position: absolute;
+	bottom: 6px;
+	right: 27px;
+	background-color: #a19671;
+	border-radius: 3px;
+	opacity: 0.8;
+}
+.like{
+	display: block;
+	text-decoration: none;
+	text-align:center;
+	width: 57px;
+	height: 23px;
+	background-color: #ff87b5;
+	line-height: 23px;
+	border-radius: 3px;
+	color: white;
+	font-weight: bolder;
+	margin-left: 16px;
+	float: left;
+}
+.like span{
+	color: white;
+	margin-right: 5px;
+}
+.love span:nth-child(2){
+	display: block;
+	float: left;
+	width: 30px;
+	height: 21px;
+	line-height: 21px;
+	text-align: center;
+	border-radius: 3px;
+	border:1px solid #ff87b5;
+	margin-left: 2px;
+	color:red;
+}
+.love span:nth-child(3){
+	line-height: 23px;
+	float: left;
+	margin-left: 23px;
+	color: #ff76ce;
+}
+.love span:nth-child(3) span{
+	text-decoration: underline;
+}
+.comment{
+	width: 200px;
+	background-color: #f7f7f7;
+	margin-top: 7px;
+	margin-left: 4px;
+	padding-left: 12px;
+	padding-top: 13px;
+	padding-bottom: 7px;
+	padding-right: 7px;
+}
+.comment span{
+	line-height: 20px;
+}
+.user{
+	color: #ff69a2;
+}
+.say{
+	color: #aaaaaa;
+}
+.main>ul>li{
+	margin-bottom: 14px;
+}
+.publick-list{
+	width: 226px;
+	background-color: white;
+	padding-top: 12px;
+	border-radius: 5px;
+	border:1px solid #f6f3f0;
+
+}
+.publick-list .describe{
+	padding-left: 12px;
+	padding-right: 12px;
+}
+.publick-list .describe a:first-child{
+	display: block;
+	margin-bottom: 25px;
+}
+.publick-list .describe a{
+	text-decoration: none;
+	color: black;
+}
+.publick-list .describe span{
+	font-weight: bolder;
+}
+.bolder{
+	font-weight: bolder;
+}
+.publick-comment{
+	margin-top: 10px;
+	background-color: #f9f9f9;
+	padding: 8px 12px 12px 12px;
+}
+.publick-comment img{
+	float: left;
+	margin-right: 4px;
+}
+.publick-comment .user-active{
+	line-height: 18px;
+}
+.describe>p{
+	margin-top: -15px;
+	color: #6c7070;
+	line-height: 19px;
+	margin-bottom: 15px;
+}
+.main>ul{
+	float: left;
+	margin-right: 9px;
+}
+.main>ul:last-child{
+	margin-right: 0;
+}
+.list-pages{
+	
+	background-image: url("../images/xiayiye_74.png");
+	background-repeat: no-repeat;
+	background-position: 420px 50px;
+}
+.list-pages ul{
+	padding-top: 100px;
+	margin:0 auto;
+	width: 300px;
+}
+.list-pages ul li a{
+	float: left;
+	padding-left: 6px;
+	padding-right: 6px;
+	height: 22px;
+	border: 1px solid #fcc8d9;
+	border-radius: 3px;
+	text-decoration: none;
+	line-height: 22px;
+	text-align: center;
+	color: #ff6799;
+	margin-right: 5px;
+	background-color: #ffe1ea;
+}

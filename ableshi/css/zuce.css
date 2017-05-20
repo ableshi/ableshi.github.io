@@ -1,0 +1,133 @@
+.main{
+	padding-left: 62px;
+	padding-top: 61px;
+	background-color: white;
+	box-shadow: 2px 2px 2px #dad0c6;
+
+}
+.left{
+	float: left;
+}
+.main h3{
+	font-size: 24px;
+	color: #768263;
+}
+.imgBox{
+	border:1px solid #999999;
+	padding: 2px;
+	width: 310px;
+}
+form{
+	margin-top: 21px;
+}
+form label{
+	display: inline-block;
+	width: 60px;
+	line-height: 32px;
+	text-align: right;
+	font-size: 13px;
+	margin-right: 16px;
+}
+form input[type="text"],
+form input[type="password"]{
+	width: 234px;
+	height: 30px;
+	line-height: 30px;
+	border:1px solid #cfcfcf;
+	border-radius: 3px;
+}
+form>ul>li{
+	margin-top: 18px;
+}
+form input[type="text"]{
+	color: #999;
+	padding-left: 9px;
+	width: 225px;
+}
+form>ul>li:nth-child(3){
+	line-height: 30px;
+}
+form>ul>li:nth-child(6)>label,
+form>ul>li:nth-child(6)>span,
+form>ul>li:nth-child(6)>a{
+	line-height: 0;
+}
+
+form>ul>li:nth-child(6)>a{
+	color: #87b32e;
+	text-decoration: none;
+}
+form>ul>li:nth-child(6) .imgBox{
+	margin-left: 76px;
+}
+form>ul>li:nth-child(7) span,
+form>ul>li:nth-child(7) a{
+	vertical-align: 0px;
+	color: #999;
+	text-decoration: none;
+}
+form>ul>li:nth-child(8) #submit{
+	width: 84px;
+	height: 29px;
+	background-color: #ff5783;
+	border-radius: 3px;
+	font-size: 14px;
+	color: white;
+	margin-bottom: 32px;
+	text-decoration: none;
+	display: inline-block;
+	line-height: 29px;
+	text-align: center;
+}
+#email-result, #user-result, #password-result{
+	color: #999;
+	margin-left: 15px;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.sidebar{
+	float: right;
+}
+.sidebar{
+	float: right;
+	height: 371px;
+	width: 234px;
+	border-left: 1px dotted #e5e5e5;
+	padding-left: 40px;
+}
+.sidebar h3{
+	margin-top: 10px;
+}
+.sidebar>p{
+	margin-top: 47px;
+	color: #999;
+}
+.sidebar>a{
+	margin-top: 15px;
+	display: block;
+	width: 111px;
+	height: 29px;
+	border-radius: 3px;
+	background-color: #87bd34;
+	color: white;
+	font-weight: bolder;
+	font-size: 14px;
+	text-decoration: none;
+	line-height: 29px;
+	text-align: center;
+}
+.sidebar ul{
+	margin-top: 17px;
+}
+.sidebar ul li a{
+	color: black;
+	text-decoration: none;
+}
+.sidebar ul li{
+	margin-bottom: 14px;
+}
+.sidebar ul li a{
+	vertical-align: -2px;
+	margin-left: 5px;
+}

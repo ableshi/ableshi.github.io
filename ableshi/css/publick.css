@@ -1,0 +1,239 @@
+body a:hover{
+	opacity: 0.8;
+}
+@font-face {
+  font-family: 'iconfont';
+  src: url('../fonts/iconfont.eot');
+  src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/iconfont.woff') format('woff'),
+  url('../fonts/iconfont.ttf') format('truetype'),
+  url('../fonts/iconfont.svg#iconfont') format('svg');
+}
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:16px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+/*头部公共样式*/
+.clearfix:before,.clearfix:after{
+	content: "";
+	display: block;
+}
+.clearfix:after{
+	clear: both;
+}
+.clearfix{
+	zoom:1; /*兼容IE6*/
+}
+body{
+	font-size: 12px;
+	font-family: arial;
+}
+.container{
+	width: 960px;
+	margin: 0 auto;
+}
+.container .logo{
+	margin-top: 14px;
+	margin-bottom: 5px;
+	float: left;
+}
+.search{
+	float: right;
+	margin-top: 32px;
+	margin-right: 12px;
+}
+.search input{
+	padding-left: 19px;
+	width: 161px;
+	height: 22px;
+	line-height: 24px;
+	float: left;
+	border: 1px solid #e8e8e8;
+	background-color: #ffffff;
+	border-radius: 3px;
+	color: #999999;
+}
+.search a{
+	display: block;
+	width: 30px;
+	height: 24px;
+	text-decoration: none;
+	color: #808080;
+	float: left;
+	line-height: 24px;
+	border-top:1px solid #e8e8e8;
+	border-bottom:1px solid #e8e8e8;
+	border-right:1px solid #e8e8e8;
+	border-radius:0 3px 3px 0;
+	text-align: center;
+	background-color: #edeeee;
+}
+.nav{
+	background-color: #ff7297;
+}
+.index-nav{
+	list-style: none;
+	float: left;
+}
+.index-nav li{
+	float: left;
+	margin-right: 33px;
+}
+.index-nav li a{
+	font-size: 14px;
+	font-weight: bolder;
+	color: white;
+	text-decoration: none;
+	line-height: 36px;
+}
+
+.login-success{
+	float: right;
+	line-height: 36px;
+}
+.login-success a{
+	text-decoration: none;
+}
+.login-success>li{
+	float: left;
+}
+.login-success>li:first-child>ul>li{
+	float: left;
+	border-right: 2px solid #f3f3f3;
+}
+.login-success>li:first-child>ul>li:last-child{
+	border-right: none;
+}
+.login-success>li:first-child>ul{
+	margin-top: 4px;
+	width: 244px;
+	height: 28px;
+	line-height: 28px;
+	background: linear-gradient(to top,#f0f0f0,#fdfdfd);
+	border-radius: 5px;
+}
+.login-success>li:first-child>ul li:first-child a{
+	display: block;
+	width: 120px;
+	background: url("../images/user-headimg_06.jpg") no-repeat 5px 3px;
+	color: #ea1f8d;
+	font-weight: bolder;
+	text-align: center;
+}
+.login-success>li>a{
+	color: white;
+	margin-left: 15px;
+}
+.login-success .have-info{
+	color: #72bcd0;
+}
+.login-success>li:first-child>ul li:nth-child(2) a{
+	width: 66px;
+	display: block;
+	font-weight: bolder;
+	text-align: center;
+	color: black;
+}
+.login-success>li:first-child>ul li:last-child a{
+	width: 54px;
+	display: block;
+	font-weight: bolder;
+	text-align: center;
+	color: black;
+}
+.login-success>li:first-child>ul li:nth-child(2) .iconfont{
+	color: #fed63c;
+}
+.login-success>li:first-child>ul li:nth-child(3) .iconfont{
+	color:#ff0b96;
+}
+.yun{
+	height: 30px;
+	background-image: url("../images/yun_65.png");
+	background-repeat: repeat-x;
+}
+.content{
+	background-color: #f3e8dc;
+}
+.content .container{
+	padding-top: 32px;
+}
+/*尾部公共样式*/
+.footer {
+	margin-top: 32px;
+	background-color: white;
+	border: 1px solid #e1e1e1;
+	border-radius: 5px 5px 0 0;
+}
+.footer a{
+	text-decoration: none;
+	color: #666;
+}
+.footer .footer-top{
+	padding-top: 25px;
+	padding-left: 40px;
+	padding-bottom: 56px;
+}
+.footer-top>div:first-child{
+	float: left;
+}
+.footer-top>div:first-child ul{
+	list-style: disc outside;
+	padding-top: 10px;
+}
+.footer-top>div:first-child ul li{
+	margin-bottom: 10px;
+}
+.footer-top>div:first-child>p{
+	color: #72bcde;
+}
+.footer-top>div:nth-child(2){
+	float: left;
+	margin-left: 90px;
+}
+.footer-top>div:nth-child(2) p{
+	color: #72bcde;
+	margin-bottom: 10px;
+}
+.footer-top>div:nth-child(2) a img{
+	margin-right: 7px;
+}
+.footer-top>div:last-child{
+	float: right;
+	margin-right: 34px;
+}
+.footer-middle{
+	border-top: 1px dotted #bbb; 
+	border-bottom: 1px dotted #bbb; 
+}
+.footer-middle ul{
+	float: left;
+	margin-left: 20px;
+}
+.footer-middle ul li{
+	float: left;
+	line-height: 38px;
+	margin-left: 12px;
+}
+.footer-middle ul li a{
+	color: #666;
+	text-decoration: none;
+}
+.footer-middle>a{
+	float: right;
+	line-height: 38px;
+	margin-right: 36px;
+}
+.footer-bottom ul{
+	width: 360px;
+	margin: 0 auto;
+}
+.footer-bottom ul li{
+	float: left;
+	line-height: 70px;
+	color: #666;
+	margin-right: 5px;
+}

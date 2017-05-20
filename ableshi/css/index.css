@@ -1,0 +1,470 @@
+
+@font-face {
+  font-family: 'iconfont';
+  src: url('../fonts/iconfont.eot');
+  src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/iconfont.woff') format('woff'),
+  url('../fonts/iconfont.ttf') format('truetype'),
+  url('../fonts/iconfont.svg#iconfont') format('svg');
+}
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:16px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+  color: #999;
+}
+/*头部公共样式*/
+.clearfix:before,.clearfix:after{
+	content: "";
+	display: block;
+}
+.clearfix:after{
+	clear: both;
+}
+.clearfix{
+	zoom:1; /*兼容IE6*/
+}
+body{
+	font-size: 12px;
+	font-family: arial;
+}
+.header{
+	background-image: url("../images/headerBg2_02.jpg");
+	background-repeat: repeat-x;
+}
+.container{
+	width: 960px;
+	margin: 0 auto;
+}
+.container .logo{
+	margin-top: 14px;
+	margin-bottom: 5px;
+	float: left;
+}
+.search{
+	float: right;
+	margin-top: 32px;
+	margin-right: 12px;
+}
+.search input{
+	padding-left: 19px;
+	width: 161px;
+	height: 22px;
+	line-height: 24px;
+	float: left;
+	border: 1px solid #e8e8e8;
+	background-color: #ffffff;
+	border-radius: 3px;
+	color: #999999;
+}
+.search a{
+	display: block;
+	width: 30px;
+	height: 24px;
+	text-decoration: none;
+	color: #808080;
+	float: left;
+	line-height: 24px;
+	border-top:1px solid #e8e8e8;
+	border-bottom:1px solid #e8e8e8;
+	border-right:1px solid #e8e8e8;
+	border-radius:0 3px 3px 0;
+	text-align: center;
+	background-color: #edeeee;
+}
+.nav{
+	background-color: #ff7297;
+}
+.index-nav{
+	list-style: none;
+	float: left;
+}
+.index-nav li{
+	float: left;
+	margin-right: 33px;
+}
+.index-nav li a{
+	font-size: 14px;
+	font-weight: bolder;
+	color: white;
+	text-decoration: none;
+	line-height: 36px;
+}
+.logon,.login{
+	float: right;
+	color: #ff7497;
+	font-weight: bolder;
+	width: 49px;
+	height: 21px;
+	line-height: 21px;
+	text-align: center;
+	border-radius: 4px;
+	background-image: url(../images/loginBg_18.png);
+	background-repeat: repeat-x;
+	text-decoration: none;
+	box-shadow: 1px 1px 1px #be526d;
+	margin-top: 8px;
+}
+.logon{
+	margin-right: 11px;
+	margin-left: 26px;
+}
+.qq-login{
+	list-style: none;
+	float: right;
+}
+.qq-login li{
+	float: left;
+	margin-right: 12px;
+	line-height: 36px;
+}
+.qq-login li img{
+	vertical-align: middle;
+	margin-right: 3px;
+}
+.qq-login li:last-child{
+	margin-right: 0;
+	
+}
+.qq-login li a{
+	text-decoration: none;
+	color: white;
+}
+.yun{
+	height: 30px;
+	background-image: url("../images/yun_65.png");
+	background-repeat: repeat-x;
+}
+.content{
+	background-color: #f3e8dc;
+}
+.content .container{
+	padding-bottom: 32px;
+}
+/*尾部公共样式*/
+.footer {
+	background-color: white;
+	border: 1px solid #e1e1e1;
+	border-radius: 5px 5px 0 0;
+	margin-top: 32px;
+}
+.footer a{
+	text-decoration: none;
+	color: #666;
+}
+.footer .footer-top{
+	padding-top: 25px;
+	padding-left: 40px;
+	padding-bottom: 56px;
+}
+.footer-top>div:first-child{
+	float: left;
+}
+.footer-top>div:first-child ul{
+	list-style: disc outside;
+	padding-top: 10px;
+}
+.footer-top>div:first-child ul li{
+	margin-bottom: 10px;
+}
+.footer-top>div:first-child>p{
+	color: #72bcde;
+}
+.footer-top>div:nth-child(2){
+	float: left;
+	margin-left: 90px;
+}
+.footer-top>div:nth-child(2) p{
+	color: #72bcde;
+	margin-bottom: 10px;
+}
+.footer-top>div:nth-child(2) a img{
+	margin-right: 7px;
+}
+.footer-top>div:last-child{
+	float: right;
+	margin-right: 34px;
+}
+.footer-middle{
+	border-top: 1px dotted #bbb; 
+	border-bottom: 1px dotted #bbb; 
+}
+.footer-middle ul{
+	float: left;
+	margin-left: 20px;
+}
+.footer-middle ul li{
+	float: left;
+	line-height: 38px;
+	margin-left: 12px;
+}
+.footer-middle ul li a{
+	color: #666;
+	text-decoration: none;
+}
+.footer-middle>a{
+	float: right;
+	line-height: 38px;
+	margin-right: 36px;
+}
+.footer-bottom ul{
+	width: 360px;
+	margin: 0 auto;
+}
+.footer-bottom ul li{
+	float: left;
+	line-height: 70px;
+	color: #666;
+	margin-right: 5px;
+}
+/*主体样式*/
+.banner{
+	padding: 10px;
+	background-color: white;
+	border-radius: 5px;
+}
+.pic ul{
+    list-style: none;
+    position: absolute;
+    bottom: 10px;
+    left: 435px;
+}
+.pic ul li{
+    float: left;
+}
+.pic ul li a{
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #ffbeaa;
+    margin-left: 5px;
+    opacity: 0.6;
+}
+.pic ul li a.active{
+    background-color: red;
+}
+.inner{
+    width: 5640px;
+    height: 289px;
+    position: absolute;
+}
+.inner img{
+    display: block;
+    float: left;
+}
+.inner a{
+	display: block;
+}
+.pic{
+    height: 289px;
+    overflow: hidden;
+    position: relative;
+}
+.pic .prev,.pic .next{
+    position: absolute;
+    top: 140px;
+    opacity: 0.6;
+}
+.pic .next{
+    right: 0;
+}
+.clothing{
+	padding-top: 18px;
+	padding-left: 23px;
+	background-color: white;
+	border-radius: 5px;
+	margin-top: 18px;
+}
+.clothing h3{
+	font-size: 17px;
+}
+.red{
+	color: #ff346c;
+}
+.clothing-list{
+	margin-top: 15px;
+	padding-bottom: 20px;
+}
+.clothing-list .clothing-both{
+	width: 303px;
+	height: 344px;
+}
+.clothing-list .clothing-both>div{
+	float: left;
+}
+.clothing-list .clothing-both>div:nth-child(3),
+.clothing-list .clothing-both>div:nth-child(4){
+	margin-top: 4px;
+}
+.clothing-list .clothing-both>div:first-child,
+.clothing-list .clothing-both>div:nth-child(3){
+	margin-right: 3px;
+}
+.clothing-list .clothing-both>div a{
+	display: block;
+	text-decoration: none;
+	position: relative;
+}
+.clothing-list .clothing-both>div a>img{
+	width: 150px;
+	height: 170px;
+}
+.mengban{
+	position: absolute;
+	bottom: 0;
+	background-color: white;
+	opacity: 0.6;
+	width: 100%;
+}
+.mengban .user-name{
+	line-height: 24px;
+	color: #fa71a7;
+	margin-left: 12px;
+}
+.clothing-both,.clothing-middle{
+	float: left;
+}
+.clothing-middle{
+	margin-left: 3px;
+}
+.clothing-middle>a{
+	display: block;
+	text-decoration: none;
+	position: relative;
+}
+.clothing-middle>a>img{
+	width: 300px;
+	height: 344px;
+}
+.hot-person{
+	position: absolute;
+	bottom: 0;
+	background-color: white;
+	opacity: 0.6;
+	padding-left: 10px;
+	width: 290px;
+	padding-bottom: 12px;
+}
+.hot-person h3{
+	margin-top: 10px;
+	font-size: 15px;
+	color: black;
+	margin-bottom: 9px;
+}
+.hot-person h3>span{
+	font-size: 12px;
+	color: #f775a3;
+	vertical-align: bottom;
+}
+.hot-person>span{
+	color: #686868;
+}
+.clothing-list>div:nth-child(3){
+	margin-left: 3px;
+}
+.blue{
+	color: #6cbbdc;
+}
+.share-clothing{
+	margin-top: 20px;
+	background-color: white;
+	border-radius: 5px;
+	padding-top: 24px;
+	padding-left: 22px;
+	padding-right: 25px;
+	padding-bottom: 26px;
+}
+.share-clothing>h3{
+	font-size: 17px;
+	float: left;
+	margin-bottom: 20px;
+}
+.share-clothing>ul{
+	float: left;
+	margin-left: 40px;
+
+}
+.share-clothing>ul>li{
+	float: left;
+	margin-right: 15px;
+	height: 17px;
+	line-height: 17px;
+}
+.share-clothing>ul>li>a,
+.share-clothing>a{
+	text-decoration: none;
+	color: #55595c;
+}
+.share-clothing>a{
+	float: right;
+}
+.share{
+	clear: both; 
+}
+.share .share-left,.share .share-right{
+	float: left;
+}
+.share .share-left>a{
+	display: block;
+	text-decoration: none;
+}
+.share .share-left>img{
+	width: 185px;
+	height: 329px;
+}
+.share .share-right{
+	margin-left: 10px;
+	width: 715px;
+	height: 330px;
+}
+.share .share-right>div{
+	float: left;
+}
+.share .share-right>div>a{
+	display: block;
+	position: relative;
+	text-decoration: none;
+}
+.share .share-right>div:nth-child(1)>a>img,
+.share .share-right>div:nth-child(2)>a>img,
+.share .share-right>div:nth-child(3)>a>img,
+.share .share-right>div:nth-child(6)>a>img,
+.share .share-right>div:nth-child(7)>a>img,
+.share .share-right>div:nth-child(8)>a>img{
+	width: 150px;
+	height: 160px;
+}
+.share .share-right>div:nth-child(2)>a,
+.share .share-right>div:nth-child(3)>a,
+.share .share-right>div:nth-child(4)>a,
+.share .share-right>div:nth-child(6)>a,
+.share .share-right>div:nth-child(7)>a,
+.share .share-right>div:nth-child(8)>a{
+	margin-left: 10px;
+}
+.share .share-right>div:nth-child(1)>a,
+.share .share-right>div:nth-child(2)>a,
+.share .share-right>div:nth-child(3)>a,
+.share .share-right>div:nth-child(4)>a{
+	margin-bottom: 10px;
+}
+.share .share-right>div:nth-child(4)>a>img,
+.share .share-right>div:nth-child(5)>a>img{
+	width: 235px;
+	height: 160px;
+}
+.share-right .like{
+	float: left;
+	margin-left: 12px;
+}
+.share-right .clothing-style{
+	float: right;
+	color: #7b7b7b;
+	margin-right: 12px;
+}
+.share-right .mengban{
+	line-height: 30px;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>图片缓动</title>
+</head>
+<body>
+  <img src="images/2.jpg" alt="beauty" id='img'>
+  <button id="max">放大</button>
+  <button id="min">缩小</button>
+  <h1>这个是个初级案例。。。</h1>
+  <script>
+    window.onload = function () {
+      var maxBtn = document.getElementById('max');
+      var minBtn = document.getElementById('min');
+      var img = document.getElementById('img');
+      maxBtn.onclick = function () {
+        maxFun()
+      }
+      minBtn.onclick = function () {
+        minFun()
+      }
+
+      var maxWidth = img.width*2; // 放大的极限值
+      var minWidth = img.width/2; // 缩小的极限值
+      // var maxHeight = img.height*2;
+      function maxFun() {
+        var endWidth = img.width*1.3;
+        // var endHeight = img.height*1.3;
+        var maxTimer = setInterval(function(){
+          if (img.width < endWidth ) {
+            if (img.width < maxWidth) {
+              img.width = img.width*1.05;
+              img.height = img.height*1.05;
+            }else {
+              clearInterval(maxTimer);
+              alert('已经到达最大极限')
+            }
+          }else {
+            clearInterval(maxTimer)
+          }
+        },20)
+      }
+      console.log(minWidth);
+      function minFun() {
+        var endWidth = img.width*0.7;
+        // var endHeight = img.height*0.7;
+        var minTimer = setInterval(function(){
+          if (img.width > endWidth ) {
+            if (img.width > minWidth) {
+              img.width = img.width*0.95;
+              img.height = img.height*0.95;
+            }else {
+              clearInterval(minTimer);
+              alert('已经到达最小极限')
+            }
+          }else {
+            clearInterval(minTimer)
+          }
+        },20)
+      }
+    }
+  </script>
+</body>
+</html>
