@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+  * {
+margin: 0;
+padding: 0;
+border: 0;
+}
+
+html,
+body {
+height: 100%;
+}
+
+body {
+cursor: pointer;
+-webkit-user-select: none;
+   -moz-user-select: none;
+    -ms-user-select: none;
+        user-select: none;
+overflow: hidden;
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+-webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+background-image: -webkit-linear-gradient(left, #ffc3a0 0%, #ffafbd 100%);
+background-image: linear-gradient(to right, #ffc3a0 0%, #ffafbd 100%);
+}
+
+canvas {
+height: 100%;
+width: 100%;
+}
+
+.copy {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+/*display: -webkit-box;
+display: -ms-flexbox;
+display: flex;*/
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+-webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+text-align: center;
+/*pointer-events: none;*/
+z-index: 100;
+}
+.copy h3 {
+color: #6f86d6;
+letter-spacing: 1px;
+font-size: 2em;
+font-weight: 700;
+font-family: 'Futura', 'Helvetica Neue', Helvetica;
+background: -webkit-linear-gradient(bottom, #48c6ef 0%, #6f86d6 100%);
+background: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+background: -moz-linear-gradient(transparent, transparent);
+-webkit-background-clip: text;
+display: block;
+-webkit-text-fill-color: transparent;
+}
+.h3{
+  margin-top: 220px;
+}
+  </style>
+</head>
+<body>
+  <canvas id="canvas"></canvas>
+  <div class="copy">
+      <h3 class="h3"><a href="./jq/index.html">轮播图</a></h3>
+      <h3><a href="./js/index.html">模拟京东菜单</a></h3>
+      <h3><a href="./cutimage/index.html">图片放大</a></h3>
+      <h3><a href="./ableshi/index.html">购物网站</a></h3>
+      <h3><a href="./preloadImg/index.html">html路径</a></h3>
+  </div>
+   <script src="./in.js"></script>
+</body>
+</html>
